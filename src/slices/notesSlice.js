@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  notes: JSON.parse(localStorage.getItem("notes")),
+  notes: JSON.parse(localStorage.getItem("notes")) || [],
   editingNoteId: "",
 }
 
