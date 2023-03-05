@@ -1,0 +1,58 @@
+.form {
+  border-bottom: 1px solid #b5b1b1;
+  padding-bottom: 20px;
+  height: 120px;
+  &__text {
+    width: 30vw;
+    margin: 20px 10px 0 0;
+    height: 35px;
+    border: 2px solid #3e81c4;
+    border-radius: 5px;
+  }
+}
+
+// ----------------------------MEDIA------------------------------
+
+@media only screen and (min-width : 800px) and (max-width : 1024px) {
+  .form {
+    &__text {
+      width: 40vw;
+    }
+  }
+}
+
+@media only screen and (min-width : 690px) and (max-width : 800px) {
+  .form {
+    &__text {
+      width: 60vw;
+    }
+  }
+}
+
+@media only screen and (min-width : 595px) and (max-width : 690px) {
+  .form {
+    &__text {
+      width: 60vw;
+    }
+  }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 595px) {
+  .form {
+    height: 140px;
+    &__text {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .form {
+    height: 140px;
+    &__text {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}

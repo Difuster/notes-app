@@ -1,0 +1,23 @@
+.alert {
+  font-weight: 700;
+  &__body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  &__success {
+    color: #219927;
+  }
+  &__warning {
+    color: red;
+  }
+}
+// ----------------------------MEDIA------------------------------
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .alert {
+    &__body {
+      justify-content: center;
+    }
+  }
+}
