@@ -1,5 +1,7 @@
 # Notes App
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/61fac487bc2606820b24/maintainability)](https://codeclimate.com/github/Difuster/notes-app/maintainability)
+
 ### `npm start`
 
 Запуск приложения
